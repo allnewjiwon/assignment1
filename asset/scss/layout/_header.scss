@@ -1,0 +1,22 @@
+.group-headline{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  .head-title{
+    font-size: 38px;
+    color: var(--main-color);
+    line-height: 1.05;
+  }
+  .alert{
+    width: 30px;
+    height: 30px;
+    background: var(--main-color);
+    border-radius: 50%;
+    color: #fff;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

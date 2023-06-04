@@ -1,0 +1,52 @@
+.footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #fff;
+  max-width: inherit;
+  .gnb{
+    padding: 4px 12px 10px;
+    height: 70px;
+    border-top: 1px solid #D9D9D9;
+    box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    .nav-list{
+      display: flex;
+      justify-content: space-between;
+      flex: 1;
+      .nav-item{
+        width: 72.75px;
+        .menu-tab{
+          font-size: 16px;
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          &.on{
+            color: var(--main-color);
+          }
+          .icon-menu{
+            display: block;
+            background-size: 100% 100%;
+            width: 36px;height: 36px;
+            display: block;
+            margin-bottom: 4px;
+            &.calender{
+              background-image: url(../images/icons/calender.svg);
+            }
+            &.class{
+              background-image: url(../images/icons/class.svg);
+            }
+            &.chat{
+              background-image: url(../images/icons/chat.svg);
+            }
+            &.more{
+              background-image: url(../images/icons/more.svg);
+            }
+          }
+         
+        
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+.group-cate{
+  margin-bottom: 24px;
+  .link-view-more{
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    align-items: center;
+    .icon-arrow{
+      background-image: url(../images/icon_arrow.png);
+      background-size: 100% 100%;
+      width: 24px;height: 24px;
+    }
+  }
+  .cate-list{
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    .cate-item{
+      display: block;
+      min-width: 58px;
+      height: 34px;
+      border-radius: 18px;
+      border: 1px solid var(--tab-border-color);
+      color: var(--main-color);
+      font-weight: bold;
+      display: flex;justify-content: center;
+      align-items: center;
+      padding: 8px 14px;
+      font-size: 16px;
+    }
+  }
+}
